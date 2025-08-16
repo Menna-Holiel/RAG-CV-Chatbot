@@ -1,15 +1,21 @@
 ﻿# RAG-CV-Chatbot
 This project is an AI-powered recruitment tool that leverages Natural Language Processing (NLP) to identify and retrieve the best candidate for a given job description. The system analyzes resumes/CVs, extracts key skills, and matches them against the job requirements to provide recruiters with the most suitable candidates efficiently.
 
-## Tech Stack & Tools
+### 🔧 Backend
 
-FastAPI → for building a lightweight and fast backend
+FastAPI → Built the server and handled API requests
 
-LangChain → to connect LLMs with external knowledge sources
+LangChain → Implemented the RAG (Retrieval-Augmented Generation) pipeline
 
-Streamlit → to create an interactive UI for the chatbot
+Conversation Memory → Added memory to keep track of chat history for more coherent and continuous interactions
 
-RAG → for combining retrieval + generation to boost answer accuracy
+### 💻 Frontend
 
-Python → the glue that holds it all together
+Streamlit → Created a user-friendly and interactive interface
+
+Session Handling → Maintained conversation context across interactions
+
+### 📊 Data
+
+Used synthetic resumes/CVs (no real personal data) for testing and evaluation.
 
